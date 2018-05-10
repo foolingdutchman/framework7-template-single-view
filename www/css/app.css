@@ -1,1 +1,54 @@
 /* Your app styles here */
+.login-background {
+	background: url(../images/bg_register.png) fixed;
+	background-size: cover
+}
+
+.common-input {  
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 9px;
+  height:40px;
+  width:80%;
+  background: rgba(255, 255,255, .5);
+  border-radius: 8px;
+}
+.ios .list .common-login-button{
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgb(255, 69, 0);
+    border-radius: 8px;
+    border :1px white;
+    color: white;
+}
+.md .login-screen-content .common-login-button{
+    margin-left: 5%;
+    margin-right: 5%;
+    background: rgb(255, 69, 0);
+    border-radius: 8px;
+    border :1px white;
+    color: white;
+}
+.common-list{
+    margin: 6px;
+}
+
+.top-blank{
+      position: relative;
+      height: 25%;
+  }
+.common-hint{
+    color: white;
+    font-size: 12px;
+    margin: 5px auto;
+    text-align: center;
+    width: auto;
+}
+.ios body .common-bottom-hint{    
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
